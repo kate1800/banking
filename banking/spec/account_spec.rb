@@ -14,4 +14,10 @@ describe Account do
     subject.balance.should == starting_balance
 
   end
+
+  it "should have a deposit value that is greater than zero" do
+    deposit = Account.new
+    deposit.deposit.should > 0
+
+  end
 end

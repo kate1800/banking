@@ -7,6 +7,11 @@ class Account
 
   end
 
+  def deposit
+    -1000.00
+
+  end
+
 
 end
 
